@@ -1,8 +1,37 @@
-*{
-    margin: none;
+* *{
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
 }
 
-container{
-    width: 450px;
-    height: 700px;
+#main-card{
+    margin: 2vh;
+    border: 1px solid black;
 }
+
+#header,#main-body{
+    border-bottom: 1px solid black;
+    padding-bottom: 1vh;
+    margin-bottom: 1vh;
+}
+
+a{
+    margin: 5px auto;
+    padding: 0 20px;
+    border-radius: 0.7vh;
+    
+    background-color: black;
+    color: white;
+    width: 50vw;
+    
+    display: inline-flex;
+    justify-content: center;
+}
+
+span{
+    width: 100%;
+    align-content: center;
+    text-align: left;
+}
+

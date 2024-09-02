@@ -2,7 +2,8 @@
     margin: 0px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Public Sans', sans-serif;
+    /* font-family: 'Public Sans', sans-serif; */
+    font-family: "Public Sans", monospace;
 }
 
 #main-card{
@@ -12,13 +13,14 @@
 
 #header,#main-body{
     border-bottom: 1px solid black;
-    padding-bottom: 1vh;
-    margin-bottom: 1vh;
+}
+#header,#main-body,#footer{
+    padding: 1vh 0;
 }
 
 a{
     margin: 5px auto;
-    padding: 0 20px;
+    padding: 5px 20px;
     border-radius: 0.7vh;
     
     background-color: black;
@@ -33,5 +35,6 @@ span{
     width: 100%;
     align-content: center;
     text-align: left;
+    text-transform: uppercase;
 }
 

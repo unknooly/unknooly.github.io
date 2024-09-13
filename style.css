@@ -21,13 +21,13 @@
 a{
     margin: 5px auto;
     padding: 5px 20px;
-    border-radius: 0.7vh;
+    border-radius: 7px;
     
     background-color: black;
     color: white;
-    width: 50vw;
+    width: 500px;
     
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -36,5 +36,10 @@ span{
     align-content: center;
     text-align: left;
     text-transform: uppercase;
+}
+
+#header img{
+    width: 100px;
+    height: 100px;
 }
 
